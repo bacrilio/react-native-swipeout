@@ -1,5 +1,5 @@
 
-forked from [dancormier/react-native-swipeout](https://github.com/dancormier/react-native-swipeout), fixed bugs and republished
+forked from [silentcloud/react-native-swipeout](https://github.com/silentcloud/react-native-swipeout), individual patches
 ---
 
 # react-native-swipe-out
@@ -9,7 +9,7 @@ iOS-style swipeout buttons that appear from behind a component
 
 ## Installation
 ```
-npm install --save react-native-swipe-out
+npm install --save bacrilio/react-native-swipeout
 ```
 
 ## Usage example
@@ -51,6 +51,8 @@ right           | array  | Yes      | []        | swipeout buttons on right
 scroll          | func   | Yes      |           | prevent parent scroll
 style           | style  | Yes      |           | style of the container
 sensitivity     | number | Yes      | 0         | change the sensitivity of gesture
+onSwipedLeft    | func   | Yes      |           | 
+onSwipedRight   | func   | Yes      |           | 
 
 ##### Button props
 
@@ -67,4 +69,4 @@ disabled        | bool   | Yes      | false     | disable button
 
 ## To Do
 
-[https://github.com/dancormier/react-native-swipeout/issues](https://github.com/dancormier/react-native-swipeout/issues)
+[https://github.com/bacrilio/react-native-swipeout/issues](https://github.com/bacrilio/react-native-swipeout/issues)
